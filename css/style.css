@@ -1,0 +1,632 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.header::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* Header-area starts here  */
+.header  .icon{
+   text-align: right;
+    display: none;
+};
+.icon a{
+    color:white;
+    padding: 10px 10px;
+    font-size: 30px;
+}
+.header .logo-area{
+}
+.header .container{
+    width: 90%;
+    margin: auto;
+}
+.header .nav{
+    background-color:#fff;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+.header .logo a{
+    text-decoration: none;
+    font-size: 25px;
+    color:rgb(65, 64, 64);
+}
+.header .logo a:hover{
+    color:#F80153;
+}
+.header .logo a span{
+    color:#F80153;
+}
+.header .nav .navbar{
+    float: right;
+}
+.header .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header .nav ul li{
+    float: left;
+}
+.header .nav ul li a{
+    text-decoration: none;
+    padding:15px 15px;
+    display: block;
+    color:rgb(65, 64, 64);
+    transition: all 0.4s ease;
+    font-size: 18px;
+}
+.header .nav ul li a:hover{
+    color:#F80153;
+}
+
+/* Header_area Ends here  */
+
+/* Home Section Starts Here  */
+.home{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1),#000), url("../images/bg.jpg");
+    background-size: cover;
+    height:80vh;
+    overflow: hidden;
+}
+.home .home-page{
+    text-align: center;
+    padding-top: 150px;
+    color:white;
+}
+.home .home-page h1{
+    font-size: 45px;
+    font-weight: bold;
+    
+}
+.home .home-page p{
+    font-size: 14px;
+    letter-spacing: 1px;
+    
+}
+.home .home-page .text{
+    margin-top: 5px;
+}
+.home .home-page .btn-style{
+    padding:7px 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 15px;
+    background-color: #F80153;
+    border:none;
+    border-radius: 3px;
+    color:white;
+    transition:  0.4s ;
+}
+.home .home-page .btn-style:hover{
+    padding:7px 30px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+/* Home Section Ends Here  */
+
+/* About Section Starts Here  */
+.about{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.about .container{
+    width: 90%;
+    margin: auto;
+}
+.about .about-title h1::first-letter{
+    font-size: 33px;
+    color:#F80153;
+}
+.about .about-title hr{
+    width: 40px;
+    border: 1px solid #F80153;
+    border-radius: 5px;
+}
+
+.about .about-area .about-text{
+    margin-top: 20px;
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+}
+.about .about-area .about-text p{
+    font-family:sans-serif;
+    font-size: 14px;
+    text-align: justify;
+   color:rgb(77, 74, 74);
+    
+}
+.about .about-area .about-img img{
+    width: 45%;
+    
+}
+/* About Section Ends Here  */
+
+/* Our-Menu Section Starts Here  */
+.our-menu{
+    padding-top: 40px;
+    padding-bottom: 50px ;
+
+}
+.our-menu::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.our-menu .container{
+    width: 90%;
+    margin: auto;
+}
+.our-menu .menu-title h1 span{
+    font-size: 33px;
+    color:#F80153;
+}
+.our-menu .menu-title hr{
+    width: 40px;
+    border: 1px solid #F80153;
+    border-radius: 5px;
+}
+.our-menu .menu-title p{
+    margin-top: 6px;
+    color:rgb(77, 74, 74);
+}
+.our-menu .our-img{
+    width:30%;
+    margin-top: 40px;
+    padding:17px 14px ;
+    background-color: #fff;
+    box-shadow: 2px 2px 8px rgb(121, 118, 118);
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+    margin-right:3%;
+    box-sizing: border-box;
+}
+
+.our-menu .our-img img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: block;
+}
+.our-menu .our-img p{
+    padding-top: 15px;
+    margin-left: 7px;
+    color:rgb(39, 39, 39);
+}
+/************ Our-Menu Section Ends Here  ************/
+
+/* Our-kitchen Section Starts Here  */
+.our-kitchen{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.our-kitchen::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.our-kitchen .container{
+    width: 90%;
+    margin: auto;
+}
+.our-kitchen .kitchen-title h1 span{
+    font-size: 33px;
+    color:#F80153;
+}
+.our-kitchen .kitchen-title hr{
+    width: 40px;
+    border: 1px solid #F80153;
+    border-radius: 5px;
+}
+.our-kitchen .kitchen-title p{
+    margin-top: 6px;
+    color:rgb(77, 74, 74);
+}
+.our-kitchen .kitchen-img{
+    width:22%;
+    margin-top: 40px;
+    padding:17px 14px ;
+    background-color: #fff;
+    box-shadow: 2px 2px 8px rgb(121, 118, 118);
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+    margin-right:3%;
+    box-sizing: border-box;
+}
+.our-kitchen .kitchen-img img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: block;
+}
+.our-kitchen .kitchen-img p{
+    padding-top: 15px;
+    margin-left: 7px;
+    color:rgb(39, 39, 39);
+}
+/* Our-kitchen Section Ends Here  */
+
+/* Said-About Section Starts Here  */
+.said-about {
+    background-image: url("../images/bg2.jpg");
+    height: 80vh;
+   background-size: cover;
+   background-position:center center ;
+   margin-top: 40px;
+   padding-top: 40px;
+}
+
+.said-about .container{
+    width: 90%;
+    margin: auto;
+}
+.said-about .said-about-tittle h1{
+    text-align:left;
+    color:white;
+}
+.said-about .said-about-tittle h1 span{
+    font-size: 33px;
+    color:#F80153;
+}
+.said-about .said-about-tittle p{
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 8px;
+}
+.said-about .card {
+    width: 30%;
+    background-color: #fff;
+    height:auto;
+    padding:25px;
+    box-sizing: border-box;
+    margin-top: 40px;
+    cursor: pointer;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    float: left;
+    margin-right:3%;
+    
+}
+
+
+.said-about .card img{
+    width:35%;
+    height:35%;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+
+}
+.said-about .card p{
+    color:#000;
+    font-size: 14px;
+    text-align: justify;
+    color:#9b9898;
+    padding-top: 15px;
+}
+.said-about .card .text{
+    font-weight: bold;
+    font-size: 16px;
+    color:#F80153;
+}
+
+
+/* Said-About Section Ends Here  */
+
+
+/* Contact Form Section Starts Here  */
+.contact{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-image: url("../images/bg3.jpg");
+    height: 80vh;
+    background-size: cover;
+}
+.contact .container{
+    width: 90%;
+    margin: auto;
+}
+.contact .contact-title h1 span{
+    font-size: 33px;
+    color:#F80153;
+}
+.contact .contact-title hr{
+    width: 30px;
+    color:#F80153;
+}
+.contact .contact-title p{
+    margin-top: 10px;
+    font-size: 14px;
+    color:rgb(56, 56, 56);
+}
+.contact .contact-form {
+    margin-top: 40px;
+    width: 30%;
+    padding:25px;
+    background-color: white;
+    box-shadow: 2px 3px 12px rgb(165, 165, 164);
+    border-radius: 5px;
+}
+.contact .contact-form p{
+    padding-bottom: 15px;
+}
+.contact .contact-form .input input{
+    width: 90%;
+    padding: 10px 10px;
+    margin-top: 15px;
+    outline: none;
+    
+
+}
+.contact .contact-form .input input:focus{
+    color:#F80153;
+    border: 1px solid #F80153;
+}
+.contact .contact-form .input input::placeholder{
+    font-size: 16px;
+}
+.contact .contact-form .text{
+    margin-top: 15px;
+}
+.contact .contact-form .text textarea{
+    outline: none;
+    padding: 10px 10px;
+}
+.contact .contact-form .text textarea::placeholder{
+   font-size: 16px;
+   font-family: sans-serif;
+}
+.contact .contact-form .text textarea:focus{
+    color: #F80153;
+    border: 1px solid #F80153;
+    
+}
+.contact .contact-img{
+    width: 60%;
+    height: auto;
+    float: left;
+}
+.contact .contact-img img{
+    width: 100%;
+    height: auto;
+}
+/* Contact Form Section Ends Here  */
+/* Footer Area starts here  */
+.text hr{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 4px;
+    color:azure
+}
+.text p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.text p span{
+    color:#F80153;
+}
+
+/* Footer Area ends here  */
+
+
+/* Responsive Website Starts here  */
+@media only screen and (max-width:991px) {
+ 
+    .about .about-area .about-text{
+        margin-top: 20px;
+        float: left;
+        width: 45%;
+        margin-right: 5%;
+    }
+    .said-about{
+        height:500px;
+    }
+    .about .about-area .about-img img{
+        width: 45%;
+        margin-top:25px;
+    }
+    .said-about .card {
+        width: 30%;
+        background-color: #fff;
+        height:auto;
+        padding:25px;
+        box-sizing: border-box;
+        margin-top: 40px;
+        cursor: pointer;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        float: left;
+        margin-right:3%;
+        
+    }
+    .contact .contact-form {
+        margin-top: 40px;
+        width: 35%;
+        padding:25px;
+        background-color: white;
+        box-shadow: 2px 3px 12px rgb(165, 165, 164);
+        border-radius: 5px;
+    }
+  
+}
+@media only screen and (max-width:767px){
+    .header .logo{
+        float: none;
+    }
+    .header .nav ul{
+        margin-top: 50px;
+        display: none;
+        
+    }
+    .header .nav ul li{
+        float:none;
+      
+       
+    }
+    .header .nav ul li a{
+        padding:8px 15px;
+        display: block;
+    }
+   
+    .header .nav {
+        background-color: #fff;
+        padding:14px 0px;
+        display: block;
+    }
+    .about .about-area .about-text{
+        margin-top: 20px;
+        float: left;
+        width: 45%;
+        margin-right: 5%;
+    }
+    .about .about-area .about-img img{
+        width: 45%;
+        margin-top: 25px;
+        height: 250px;
+    }
+      .our-menu .our-img{
+        width:45%;
+        margin-top: 40px;
+        padding:17px 14px ;
+        background-color: #fff;
+        box-shadow: 2px 2px 8px rgb(121, 118, 118);
+        border-radius: 5px;
+        cursor: pointer;
+        float: left;
+        margin-right:3%;
+        box-sizing: border-box;
+    }
+    .our-kitchen .kitchen-img{
+        width:46%;
+        margin-top: 40px;
+        padding:17px 14px ;
+        background-color: #fff;
+        box-shadow: 2px 2px 8px rgb(121, 118, 118);
+        border-radius: 5px;
+        cursor: pointer;
+        float: left;
+        margin-right:3%;
+        box-sizing: border-box;
+    }
+    .said-about{
+        height:800px;
+    }
+    .said-about .card {
+        width: 45%;
+        background-color: #fff;
+        height:auto;
+        padding:25px;
+        box-sizing: border-box;
+        margin-top: 40px;
+        cursor: pointer;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        float: left;
+        margin-right:3%;
+        
+    }
+    .contact .contact-form {
+        margin-top: 40px;
+        width: 50%;
+        padding:25px;
+        background-color: white;
+        box-shadow: 2px 3px 12px rgb(165, 165, 164);
+        border-radius: 5px;
+    }
+    .header  .icon{
+        text-align: right;
+         display:block;
+     };
+     .icon a{
+         color:white;
+         padding: 10px 10px;
+         
+     }
+     .nav .icon a .fa-bars{
+        font-size: 40px;
+        position: absolute;
+        right:110px;
+        color:#000;
+        
+     }
+      .icon a:hover .fa-bars{
+         color:#F80153;
+     }
+    
+}
+@media only screen and (max-width:577px) {
+    .about .about-area .about-text{
+        margin-top: 20px;
+        float: none;
+        width: 100%;
+    }
+    .about .about-area .about-img img{
+        width: 100%;
+        margin-top: 25px;
+        height: 250px;
+    }
+    .our-menu .our-img{
+        width:100%;
+        margin-top: 40px;
+        padding:17px 14px ;
+        background-color: #fff;
+        box-shadow: 2px 2px 8px rgb(121, 118, 118);
+        border-radius: 5px;
+        cursor: pointer;
+        float: left;
+        margin-right:3%;
+        box-sizing: border-box;
+    }
+    .our-kitchen .kitchen-img{
+        width:100%;
+        margin-top: 40px;
+        padding:17px 14px ;
+        background-color: #fff;
+        box-shadow: 2px 2px 8px rgb(121, 118, 118);
+        border-radius: 5px;
+        cursor: pointer;
+        float: left;
+        margin-right:3%;
+        box-sizing: border-box;
+    }
+    .said-about{
+        height:1200px;
+    }
+    .said-about::after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .said-about .card {
+        width: 100%;
+        background-color: #fff;
+        height:auto;
+        padding:25px;
+        box-sizing: border-box;
+        margin-top: 40px;
+        cursor: pointer;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        float: left;
+        margin-right:3%;
+        
+    }
+    .contact .contact-form {
+        margin-top: 40px;
+        width: 90%;
+        padding:25px;
+        background-color: white;
+        box-shadow: 2px 3px 12px rgb(165, 165, 164);
+        border-radius: 5px;
+    }
+}
